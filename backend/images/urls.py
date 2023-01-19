@@ -10,3 +10,4 @@ router = SimpleRouter()
 router.register('images', views.ImageViewSet, basename='images')
 
 urlpatterns = router.urls
+
